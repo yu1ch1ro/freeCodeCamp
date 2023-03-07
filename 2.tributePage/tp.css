@@ -1,0 +1,80 @@
+main {
+  font-family: Helvetica;
+  font-size: 17px;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 15px;
+  padding-bottom: 5px;
+}
+
+li {
+  padding: 5px;
+}
+
+figure[id='img-div'] {
+  display: block;
+  margin: 40px 180px 20px 180px;
+  padding: 15px 10px 5px 10px;
+  background-color: rgba(255,255,255);
+  border-radius: 15px;
+}
+
+img {
+  border-radius: 15px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  display: block;
+  max-width: 100%;
+  margin: 4px auto 0 auto;
+  text-align: center;
+  font-size: 14px;
+}
+.bold {
+  font-weight: bold;
+}
+.titles {
+  text-align: center;
+}
+
+.president {
+  border-radius: 7px 7px 0 0;
+  margin: 10px 0 0 0;
+  background-color: #0057B7;
+  color: #FFDD00;
+}
+
+.volodymyr {
+  border-radius: 0 0 7px 7px;
+  padding: 4px;
+  margin: 0;
+  background-color: #FFDD00;
+  color: #0057B7;
+}
+
+.tribute-info {
+  margin: 40px 350px auto 350px;
+  text-align: justify;
+}
+
+.bio {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.more {
+  margin: 0 auto 5px 25px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.quote {
+  display: block;
+  font-style: italic;
+  text-align: right;
+  margin: 40px 0 40px 150px;
+}
