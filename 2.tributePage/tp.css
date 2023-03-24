@@ -57,7 +57,7 @@ figcaption {
 }
 
 .tribute-info {
-  margin: 40px 350px auto 350px;
+  margin: 40px 200px auto 200px;
   text-align: justify;
 }
 
@@ -77,4 +77,13 @@ figcaption {
   font-style: italic;
   text-align: right;
   margin: 40px 0 40px 150px;
+}
+
+@media (max-width: 1020px) {
+  figure[id='img-div'] {
+    margin: 40px 100px 20px 100px;
+  }
+  .tribute-info {
+    margin: 40px 120px auto 120px;
+  }
 }
